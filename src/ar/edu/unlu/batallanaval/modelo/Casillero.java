@@ -42,7 +42,6 @@ public class Casillero implements Serializable {
 
         this.barco.recibirImpacto();
 
-
         if (barco.estaHundido()) {
             return ResultadoDisparo.HUNDIDO;
         } else {

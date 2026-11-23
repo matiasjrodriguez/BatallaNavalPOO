@@ -22,4 +22,8 @@ public class Barco implements Serializable {
     public TipoBarco getTipo() {
         return this.tipo;
     }
+
+    public int getLongitud() {
+        return this.tipo.getLongitud();
+    }
 }
